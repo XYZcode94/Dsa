@@ -15,7 +15,9 @@ int linearSearch(int key, int array[100], int n) {
 
     for (int i = 0; i < n; i++) {
         if (array[i] == key) {
-            return i; 
+            int result;
+             result = printf("found: ",array[i]);
+            return result; 
         }
     }
     return -1;  
